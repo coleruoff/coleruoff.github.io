@@ -133,8 +133,9 @@ Profile
 }
 
 
+
 #profile .portrait {
-  background-image: url('img/cole_headshot_2.JPG');
+  background-image: url('https://coleruoff.github.io/img/cole_headshot_2.jpg');
   width: 200px;
   height: 200px;
   margin: 0 auto;
