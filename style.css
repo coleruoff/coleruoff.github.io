@@ -1,3 +1,4 @@
+
 /**********************************************************
 General Stuff
 **********************************************************/
@@ -34,8 +35,8 @@ a {
   position: relative;
   background: #f5f5f5;
   border-bottom: 1px solid #eaeaea;
+  text-align: right;
 }
-
 .footer {
   padding: 25px 0;
   text-align: center;
@@ -44,11 +45,62 @@ a {
 /**********************************************************
 Navigation Bar
 **********************************************************/
+
 .nav {
+  text-align: right;
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 15px;
-  text-align: right;
+  display: block !important;
+}
+
+.nav-logo {
+  float: left;
+  margin-top: -11px;
+  transition: transform 150ms ease-out;
+  color: #000 !important;
+}
+
+.nav-logo:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.nav-logo img {
+  display: block;
+  max-height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+.nav-links {
+  font-size: 16px;
 }
 
 .nav-logo-text {
@@ -65,36 +117,6 @@ Navigation Bar
 }
 
 
-.nav-links {
-  float: right!important;
-  margin-right: -15px;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  list-style: none;
-  text-align: right;
-}
-
-.nav-links li {
-  display: inline-block;
-  margin: 0 0 0 15px;
-}
-
-.nav-links li:first-child {
-  margin-left: 0;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #111;
-}
-
-.nav-links a:hover {
-  color: #000;
-  transform: scale(2.1);
-}
-
-  
 .active {
     color: rgb(91, 139, 111);
     font-weight: bold;
@@ -141,7 +163,7 @@ Profile
   justify-content: center;
   list-style: none;
   padding: 0;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 #profile .network-icon li {
@@ -156,11 +178,15 @@ Profile
   transform: scale(1.1)
 }
 
+#about-me{
+  padding-top: 1em;
+}
+
 /**********************************************************
 Social Media Links
 **********************************************************/
 .fa {
-  padding: 20px;
+  padding: 0px;
   font-size: 70px;
   width: 30px;
   text-align: center;
@@ -170,16 +196,34 @@ Social Media Links
 
 
 /**********************************************************
-
+Interests and Education
 **********************************************************/
 
-table{
-  border: none;
-  width: 100%;
-  
+ul.ul-interests li {
+  font-size: 0.9rem;
 }
 
+ul.ul-edu {
+  list-style: none;
+}
 
+ul.ul-edu li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
 
 
 
@@ -187,7 +231,7 @@ table{
 Reference CSS
 **********************************************************/
 
-
+/*
 
 code {
   background-color: rgba(0, 0, 0, 0.02);
@@ -498,7 +542,7 @@ pre {
 
 
 
-  /**/
+
   
   
   
