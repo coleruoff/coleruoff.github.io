@@ -132,7 +132,12 @@ Profile
   position: relative;
 }
 
-
+#profile-pic{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30%;
+}
 
 #profile .portrait {
   background-image: url('https://coleruoff.github.io/img/cole_headshot_2.jpg');
