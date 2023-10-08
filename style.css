@@ -232,6 +232,68 @@ ul.ul-edu li .description p.institution {
 }
 
 
+/**********************************************************
+Contact page stuff
+**********************************************************/
+
+#contact-title{
+  padding-top: 4em;
+}
+
+#contact-list{
+  padding-top: 2.5em;
+}
+
+#contact- .fa-ul {
+  margin-left: 3.14285714rem; /* Must be > `fa-2x` icon size. */
+}
+
+#contact .fa-li {
+  position: absolute;
+  left: -3.14285714rem; /* Negative of `#contact.home-section .fa-ul` margin. */
+  width: 2rem; /* Match `fa-2x` icon size. */
+  top: 0.14285714em; /* Default FA value. */
+  text-align: center;
+}
+
+#contact li {
+  padding-top: .8rem; /* Align text with bottom of `fa-2x` icon. */
+  margin-bottom: 0.3rem;
+}
+
+#contact li:last-of-type {
+  margin-bottom: 0;
+}
+
+/**********************************************************
+Resources page stuff
+**********************************************************/
+
+#resources-title{
+  padding-top: 4em;
+}
+
+ul.ul-resources {
+  list-style: none;
+}
+
+ul.ul-resources li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-resources li .description p {
+  margin: 0;
+}
+
+ul.ul-resources li .description p.course {
+  font-size: 0.9rem;
+}
+
+ul.ul-resources li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
 
 /**********************************************************
 Reference CSS
