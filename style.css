@@ -17,6 +17,21 @@ body {
   -moz-font-feature-settings: "liga" on;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 h1,
 h2,
 h3,
@@ -132,7 +147,7 @@ Profile
   position: relative;
 }
 
-#profile-pic{
+#profile-pic {
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -222,10 +237,6 @@ ul.ul-edu li .description p {
   margin: 0;
 }
 
-ul.ul-edu li .description p.course {
-  font-size: 0.9rem;
-}
-
 ul.ul-edu li .description p.institution {
   font-size: 0.75rem;
   color: rgba(0,0,0,0.6);
@@ -244,7 +255,7 @@ Contact page stuff
   padding-top: 2.5em;
 }
 
-#contact- .fa-ul {
+#contact .fa-ul {
   margin-left: 3.14285714rem; /* Must be > `fa-2x` icon size. */
 }
 
@@ -273,10 +284,6 @@ Resources page stuff
   padding-top: 4em;
 }
 
-ul.ul-resources {
-  list-style: none;
-}
-
 ul.ul-resources li {
   position: relative;
   padding: 0px 15px 4px 3px;
@@ -295,12 +302,25 @@ ul.ul-resources li .description p.institution {
   color: rgba(0,0,0,0.6);
 }
 
+#venn-diagram {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  
+}
+
+
+
 /**********************************************************
 Research page stuff
 **********************************************************/
 
 #research-title{
   padding-top: 4em;
+}
+
+.ul-resources i{
+  padding-top: 1em;
 }
 
 /**********************************************************
