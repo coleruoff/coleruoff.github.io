@@ -217,8 +217,9 @@ Social Media Links
 }
 
 .ai {
-  padding: 0px;
-  font-size: 30px;
+  padding-top: 3px;
+  
+  font-size: 22px;
   width: 30px;
   color: black;
   border-radius: 50%;
