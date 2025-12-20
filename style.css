@@ -209,9 +209,17 @@ Social Media Links
 **********************************************************/
 .fa {
   padding: 0px;
-  font-size: 70px;
+  font-size: 25px;
   width: 30px;
   text-align: center;
+  color: black;
+  border-radius: 50%;
+}
+
+.ai {
+  padding: 0px;
+  font-size: 30px;
+  width: 30px;
   color: black;
   border-radius: 50%;
 }
