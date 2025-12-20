@@ -209,7 +209,7 @@ Social Media Links
 **********************************************************/
 .fa {
   padding: 0px;
-  font-size: 25px;
+  font-size: 20px;
   width: 30px;
   text-align: center;
   color: black;
@@ -217,9 +217,8 @@ Social Media Links
 }
 
 .ai {
-  padding-top: 3px;
-  
-  font-size: 22px;
+  padding-top: 1px;
+  font-size: 24px;
   width: 30px;
   color: black;
   border-radius: 50%;
@@ -331,6 +330,11 @@ Research page stuff
 
 .ul-resources i{
   padding-top: 1em;
+}
+
+
+.large-numbers li::marker {
+  font-size: 25px; /* Adjust size as needed, 'em' or 'px' units work well */
 }
 
 /**********************************************************
