@@ -383,14 +383,14 @@ Research page stuff
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
-.article .figure {
-  margin: 1.5rem 0;
-  text-align: center;
+.article figure {
+  text-align: center; /* centers all inline content like img and caption */
 }
 
 .article .figure img {
   max-width: 100%;
   height: auto;
+  margin: 1.5rem 0;
 }
 
 .article .figure-small img {
