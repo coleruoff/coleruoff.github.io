@@ -393,6 +393,23 @@ code {
   height: auto;
 }
 
+.figure-small img {
+  max-width: 50%;
+}
+
+.figure-medium img { 
+  max-width: 70%; 
+}
+
+.figure-large img  { 
+  max-width: 90%; 
+}
+
+figcaption {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.4rem;
+}
 .figure figcaption {
   font-size: 0.8rem;
   color: #555;
