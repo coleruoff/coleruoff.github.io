@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<title>Cole Ruoff</title>
-
-<!-- <base href="/coleruoff.github.io/"> -->
-
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="fonts.css" media="all">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Tidy Data</title>
+  <meta name="description" content="Short description of the blog post" />
+
+  <!-- Main stylesheet -->
+
   <link rel="stylesheet" href="style.css" media="all">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/x-icon" href="icons8-dna-96.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <!-- Optional: syntax highlighting -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" /> -->
 </head>
 
 <body>
-    <header class="header">
+  <header class="header">
       
       <nav class="nav">
-
-
+        
         <ul class="nav-links">
           
           <li><a href="index.html">Home</a></li>
@@ -39,50 +38,88 @@
       </nav>
 
     </header>
+  <main class="container">
 
-    <article>
+    <article class="post">
+
+      <header class="post-header">
         <h1>Tidy Data</h1>
+        <h3>and why it's important</h3>
+        <p class="post-meta">Cole Ruoff · January 2026</p>
+      </header>
 
-        <h2>and why it's important</h2>
+      <section class="post-section">
+        <p>
+          Working as data scientist you quickly learn the importance of keeping your data tidy. Storing data in a tidy format as soon as you start collecting the data and maintaining it will save you hours of data cleanup and many headaches when running analyses. I’ve experienced the downsides of messy data firsthand so in this post, I will teach you what tidy data is, why it’s important, how to keep your data tidy, and some examples of tidy and not-so-tidy data.</p>
 
-        <p>Working as data scientist you quickly learn the importance of keeping your data tidy. Storing data in a tidy format as soon as you start collecting the data and maintaining it will save you hours of data cleanup and many headaches when running analyses. I’ve experienced the downsides of messy data firsthand so in this post, I will teach you what tidy data is, why it’s important, how to keep your data tidy, and some examples of tidy and not-so-tidy data.</p>
+        “tidy datasets are all alike, but every messy dataset is messy in its own way.”
 
-        <p>“tidy datasets are all alike, but every messy dataset is messy in its own way.”
+        -Hadley Wickham
 
-        -Hadley Wickham</p>
+        </p>
+      </section>
 
-        What
-        <p>If you are unfamiliar with the term “tidy data” you may think it describes datasets that are free of typos or are sorted according to a certain variable. The term tidy data actually describes a certain structure to store data such that, each row represents a single observation, each column represents a single variable, and each cell is a single value. (Fig 1.) This concept was popularized by Hadley Wickham, who is the creator of some quite popular R packages like ggplot2 and dplyr.</p>
+      <section class="post-section">
+        <h2>What</h2>
+        <p>
+          If you are unfamiliar with the term “tidy data” you may think it describes datasets that are free of typos or are sorted according to a certain variable. The term tidy data actually describes a certain structure to store data such that, each row represents a single observation, each column represents a single variable, and each cell is a single value. (Fig 1.) This concept was popularized by Hadley Wickham, who is the creator of some quite popular R packages like ggplot2 and dplyr.
+        </p>
+      </section>
 
-        Why
-        <p>Tidy data provides a structured way to store data such that a data scientist or a computer algorithm can efficiently extract the data in a repeatable fashion. This is important for data science analyses because it allows for the same pipeline to be applied to new datasets with confidence. Tidy data also allows for streamlined data exploration, data transformation, and visualization as most packages in R like ggplot2 expect tidy data.</p>
+      <section class="post-section">
+        <h2>Why</h2>
+        <p>
+          Tidy data provides a structured way to store data such that a data scientist or a computer algorithm can efficiently extract the data in a repeatable fashion. This is important for data science analyses because it allows for the same pipeline to be applied to new datasets with confidence. Tidy data also allows for streamlined data exploration, data transformation, and visualization as most packages in R like ggplot2 expect tidy data.
+        </p>
+      </section>
 
-        How
-        <p>The best way to keep your data tidy is to start from the beginning. As soon as you start collecting data, try to store it in a tidy format. If this is not possible, you will have to embark on the task of data cleanup. Luckily, there are packages in R that can assist with this. By using operations such as pivoting, mutating, and filtering as well as handling missing data, you can convert your messy data to tidy data. This task is extremely important for data analysis and visualization.</p>
+      <section class="post-section">
+        <h2>How</h2>
+        <p>
+          The best way to keep your data tidy is to start from the beginning. As soon as you start collecting data, try to store it in a tidy format. If this is not possible, you will have to embark on the task of data cleanup. Luckily, there are packages in R that can assist with this. By using operations such as pivoting, mutating, and filtering as well as handling missing data, you can convert your messy data to tidy data. This task is extremely important for data analysis and visualization.
+        </p>
+      </section>
+  
 
-        Examples
+      <section class="post-section">
+        <h2>Examples</h2>
+
         <p>This dataset (Fig. 1) shows what tidy data look like. Notice how each column represents a single variable and each row is its own observation.</p>
 
+        <figure class="figure">
+          <img src="img/tidy_data_fig1.jpg" alt="Description of the figure" />
+          <figcaption>
+            Fig. 1 Patient resting heart rate (RHR) in tidy format
+          </figcaption>
+        </figure>
 
-
-        <img src="img/tidy_data_fig1.jpg" alt="Description of image">
-        <p>Fig. 1 Patient resting heart rate (RHR) in tidy format</p>
         <p>This second dataset (Fig. 2) shows an example of non-tidy or “messy” data. The second and third column contain the same variable and each row contains two observations.</p>
 
+        <figure class="figure">
+          <img src="img/tidy_data_fig2.jpg" alt="Description of the figure" />
+          <figcaption>
+            Fig. 2 Patient resting heart rate (RHR) in “messy” format
+          </figcaption>
+        </figure>
+      </section>
 
-
-        <img src="img/tidy_data_fig2.jpg" alt="Description of image">
-        <p>Fig. 2 Patient resting heart rate (RHR) in “messy” format</p>
-        Conclusion
-        <p>Hopefully, after reading this post you are more familiar with the concept of tidy data, the importance of the tidy format, and how to keep your data tidy. Understanding this concept will improve your efficiency of data analysis as well as help you understand the data you are working with.</p>
+      <section class="post-section">
+        <h2>Conclusion</h2>
+        <p>
+          Hopefully, after reading this post you are more familiar with the concept of tidy data, the importance of the tidy format, and how to keep your data tidy. Understanding this concept will improve your efficiency of data analysis as well as help you understand the data you are working with.
+        </p>
+      </section>
 
     </article>
 
+  </main>
 
-    <footer class="footer">  
+
+  <footer class="footer">  
       <p>All views/posts are my own | &copy; 2026 Cole Ruoff</p>
-   </footer>
+  </footer>
 
+  <!-- Optional: syntax highlighting -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script> -->
 </body>
-
 </html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Blog Post Title</title>
+  <meta name="description" content="Short description of the blog post" />
+
+  <!-- Main stylesheet -->
+
+  <link rel="stylesheet" href="style.css" media="all">
+
+  <!-- Optional: syntax highlighting -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" /> -->
+</head>
+
+<body>
+  <main class="container">
+
+    <article class="post">
+
+      <header class="post-header">
+        <h1>Blog Post Title</h1>
+        <p class="post-meta">Cole Ruoff · January 2026</p>
+      </header>
+
+      <section class="post-section">
+        <p>
+          This is the introduction to your blog post. Use this section to
+          explain the motivation and give context for what follows.
+        </p>
+      </section>
+
+      <section class="post-section">
+        <h2>Section Heading</h2>
+        <p>
+          This is a paragraph explaining the concept. You can include inline
+          code like <code>ggplot()</code> or <code>numpy.array</code>.
+        </p>
+      </section>
+
+      <section class="post-section">
+        <h2>Code Example</h2>
+
+        <pre><code class="language-r">
+library(ggplot2)
+
+ggplot(df, aes(x, y)) +
+  geom_point() +
+  theme_minimal()
+        </code></pre>
+      </section>
+
+      <section class="post-section">
+        <h2>Image Example</h2>
+
+        <figure class="figure">
+          <img src="images/example.png" alt="Description of the figure" />
+          <figcaption>
+            Figure 1. Example visualization generated from the analysis.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="post-section">
+        <h2>Conclusion</h2>
+        <p>
+          Wrap up the post here. Summarize the main points and link to related
+          resources or future work.
+        </p>
+      </section>
+
+    </article>
+
+  </main>
+
+  <!-- Optional: syntax highlighting -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script> -->
+</body>
+</html>
