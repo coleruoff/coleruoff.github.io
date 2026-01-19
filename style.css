@@ -344,7 +344,7 @@ Research page stuff
 
 
 
-body {
+.article body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.6;
@@ -371,7 +371,7 @@ body {
   margin-top: 2rem;
 }
 
-pre {
+.article pre {
   background: #f6f8fa;
   padding: 1rem;
   overflow-x: auto;
