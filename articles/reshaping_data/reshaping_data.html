@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<title>Cole Ruoff</title>
-
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Reshaping Data</title>
+  <meta name="description" content="Short description of the blog post" />
+
+  <!-- Main stylesheet -->
+
   <link rel="stylesheet" href="/fonts.css" media="all">
   <link rel="stylesheet" href="/style.css" media="all">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/x-icon" href="icons8-dna-96.png">
+  <link rel="icon" type="image/x-icon" href="/icons8-dna-96.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <!-- Optional: syntax highlighting -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" /> -->
 </head>
 
-<body>
-    <header class="header">
+<body class="article">
+  <header class="header">
       
       <nav class="nav">
-
+        
         <ul class="nav-links">
           
           <li><a href="/index.html">Home</a></li>
 
-          <li><a href="research.html">Research</a></li>
+          <li><a href="/research.html">Research</a></li>
 
           <li><a href="/resources.html">Resources</a></li>
 
@@ -35,116 +42,200 @@
       </nav>
 
     </header>
+  <main class="container">
 
-    <article>
+    <article class="post">
+
+      <header class="post-header">
         <h1>Reshaping Data</h1>
+        
+        <p class="post-meta">Cole Ruoff · January 2026</p>
+      </header>
 
-        <p>When working on data science projects, you will need to manipulate the shape of your data quite often. Depending on the analysis you are conducting, you may need to transform your data into a different structure. This post includes information on what reshaping data is, why it’s important, how to reshape your data, and an example of reshaping data between formats.
+      <section class="post-section">
+        <p>
+          When working on data science projects, you will need to manipulate the shape of your data quite often. Depending on the analysis you are conducting, you may need to transform your data into a different structure. This post includes information on what reshaping data is, why it’s important, how to reshape your data, and an example of reshaping data between formats.
+        </p>
+      </section>
 
-        What
-        Reshaping data is the process of transforming your data from one format to another.
+      <hr>
 
-        Wide format - each subject is a row and each variable is column. Multiple observations from the same subject can be in the same row. This typically results in many columns (Fig. 1).
+      <section class="post-section">
+        <h2>What</h2>
+        <p>
+          <b>Reshaping data</b> is the process of transforming your data from one format to another.
+        </p>
 
-        Long format (tidy data) - each observation is a row and each variable is a column. Each distinct observation has its own row. This typically results in many rows (Fig. 3).
+        <p>
+          <b>Wide format</b> - each subject is a row and each variable is column. Multiple observations from the same subject can be in the same row. This typically results in many columns (Fig. 1).
+        </p>
+          
+        <p>
+          <b>Long format</b> (<a href="https://coleruoff.substack.com/p/tidy-data">tidy data</a>) - each observation is a row and each variable is a column. Each distinct observation has its own row. This typically results in many rows (Fig. 3).
+        </p>
+        
+      </section>
 
-        Why
-        There are various reasons why you might want to reshape your data. For data analysis, many statistical methods and ML algorithms require data to be in long format. Some R packages for data visualization require data to be in long format (e.g. ggplot2), while others require wide format (e.g. ComplexHeatmap). Depending on the specific data science approach you are using, you will need to reshape your data at some point, so it is helpful to understand the concept and know how to use it.
+      <hr>
 
-        How
-        The most common R package used to reshape data is tidyr. Here are some typical operations used to reshape data in R:
+      <section class="post-section">
+        <h2>Why</h2>
+        <p>
+          There are various reasons why you might want to reshape your data. For data analysis, many statistical methods and ML algorithms require data to be in long format. Some R packages for data visualization require data to be in long format (e.g. <a href="https://ggplot2.tidyverse.org/"><i>ggplot2</i></a>), while others require wide format (e.g. <a href="https://jokergoo.github.io/ComplexHeatmap-reference/book/"><i>ComplexHeatmap</i></a>). Depending on the specific data science approach you are using, you will need to reshape your data at some point, so it is helpful to understand the concept and know how to use it.
+        </p>
+      </section>
 
-        pivot_longer( )
-        Converts data from wide to long format
+      <hr>
 
-        package: tidyr
+      <section class="post-section">
+        <h2>How</h2>
+        <p>
+          The most common R package used to reshape data is <a href="https://tidyr.tidyverse.org/"><i>tidyr</i></a>. Here are some typical operations used to reshape data in R:
 
-        pivot_wider( )
-        Converts data from long to wide format
+          <h4>pivot_longer()</h4>
+          <ul>
+            <li>Converts data from wide to long format</li>
+            <li>package: <i>tidyr</i></li>
+          </ul>
 
-        package: tidyr
+          <h4>pivot_wider()</h4>
+          <ul>
+            <li>Converts data from long to wide format</li>
+            <li>package: <i>tidyr</i></li>
+          </ul>
 
-        melt( )
-        Converts data from wide to long format
+          <h4>melt()</h4>
+          <ul>
+            <li>Converts data from wide to long format</li>
+            <li>Allows specifying id.vars and measure.vars</li>
+            <li>package: <i>reshape2</i></li>
+          </ul>
 
-        Allows specifying id.vars and measure.vars
+          <h4>cast()/dcast()/acast()</h4>
+          <ul>
+            <li>Converts data from long to wide format</li>
+            <li>Can aggregate when multiple values map to same cell</li>
+            <li>dcast() for data.frames; acast() for arrays/matrices</li>
+            <li>package: <i>reshape2</i></li>
+          </ul>
 
-        package: reshape2
+          * <i>tidyr</i>’s functions are considered current best practice. However, <i>reshape2</i>’s functions are still used, especially in legacy code.
 
-        cast( )/dcast( )/acast( )
-        Converts data from long to wide format
+        </p>
+      </section>
 
-        Can aggregate when multiple values map to same cell
+      <hr>
 
-        dcast( ) for data.frames; acast( ) for arrays/matrices
+      <section class="post-section">
+        <h2>Examples</h2>
 
-        package: reshape2
+        <p>
+          This short script demonstrates the two main data formats and figures that can be created from them. For this example, we will be using a toy dataset of RNA sequencing gene counts. The first step is to load the packages needed and generate the data.
+        </p>
 
-        * tidyr’s functions are considered current best practice. However, reshape2’s functions are still used, especially in legacy code.
+        <pre><code class="language-r">
+          library(tidyr)
+          library(dplyr)
 
-        Example
-        This short script demonstrates the two main data formats and figures that can be created from them. For this example, we will be using a toy dataset of RNA sequencing gene counts. The first step is to load the packages needed and generate the data.
-
-        library(tidyr)
-        library(dplyr)
-
-        # 0. Create Toy RNA-seq wide data
-        rna_seq_wide <- data.frame(
-          gene = c("geneA", "geneB", "geneC"),
-          sample1_control = c(100, 200, 150),
-          sample2_control = c(110, 210, 160),
-          sample1_treated = c(300, 400, 350),
-          sample2_treated = c(320, 420, 360)
-        )
-
-        print(rna_seq_wide)
-
-        Fig. 1 Example of data in wide format
-        The data we created are in wide format which is useful for creating figures like heatmaps. Now, we will use ComplexHeatmap to display the gene counts for each sample.
-
-        # 1. Plot heatmap using wide format data
-        rna_seq_wide %>% 
-          column_to_rownames("gene") %>% 
-          Heatmap(cluster_columns = F, cluster_rows = F, name="Gene Count")
-
-        Fig. 2 Heatmap indicating gene counts for each sample
-        We can use the pivot_longer() function to reshape our data from wide to long format. After the reshaping step, we will use the separate() function to split the “sample_condition” column into two columns indicating the sample name and condition of each observation.
-
-        # 2. Pivot longer: from wide to long
-        rna_seq_long <- rna_seq_wide %>%
-          pivot_longer(
-            cols = -gene,
-            names_to = "sample_condition",
-            values_to = "count"
+          # 0. Create Toy RNA-seq wide data
+          rna_seq_wide <- data.frame(
+            gene = c("geneA", "geneB", "geneC"),
+            sample1_control = c(100, 200, 150),
+            sample2_control = c(110, 210, 160),
+            sample1_treated = c(300, 400, 350),
+            sample2_treated = c(320, 420, 360)
           )
 
-        # 3. Separate the 'sample_condition' column into 'sample' and 'condition'
-        rna_seq_long <- rna_seq_long %>%
-          separate(sample_condition, into = c("sample", "condition"), sep = "_")
+          print(rna_seq_wide)
+        </code></pre>
 
-        print(rna_seq_long)
+        <figure class="figure-small">
+          <img src="img/wide_data_example.png" alt="Description of the figure" />
+          <figcaption>
+            Fig. 1 Example of data in wide format
+          </figcaption>
+        </figure>
 
+        <p>
+          The data we created are in wide format which is useful for creating figures like heatmaps. Now, we will use <i>ComplexHeatmap</i> to display the gene counts for each sample.
+        </p>
 
+        <pre><code class="language-r">
+          # 1. Plot heatmap using wide format data
 
-        Fig. 3 Example of data in long format
-        Now that each row represents a single observation, our data are in long format, also known as tidy data. Since we have tidy data now, we can use ggplot2 to generate bar plots displaying the gene counts for each sample.
+          rna_seq_wide %>% 
+            column_to_rownames("gene") %>% 
+            Heatmap(cluster_columns = F, cluster_rows = F, name="Gene Count")
+        </code></pre>
 
-        # 4. Plot barplot for gene count between treatment conditions
-        ggplot(rna_seq_long)+
-          geom_col(aes(x=gene,y=count,fill=condition),position = "dodge")+
-          facet_wrap(~sample)
+        <figure class="figure-small">
+          <img src="img/wide_data_heatmap_example.png" alt="Description of the figure" />
+          <figcaption>
+            Fig. 2 Heatmap indicating gene counts for each sample
+          </figcaption>
+        </figure>
 
+        <p>
+          We can use the pivot_longer() function to reshape our data from wide to long format. After the reshaping step, we will use the separate() function to split the “sample_condition” column into two columns indicating the sample name and condition of each observation.
+        </p>
 
+        <pre><code class="language-r">
+          # 2. Pivot longer: from wide to long
 
-        Fig. 4 Bar plots displaying the condition and gene counts for each sample</p>
+          rna_seq_long <- rna_seq_wide %>%
+            pivot_longer(
+              cols = -gene,
+              names_to = "sample_condition",
+              values_to = "count"
+            )
+
+          # 3. Separate the 'sample_condition' column into 'sample' and 'condition'
+
+          rna_seq_long <- rna_seq_long %>%
+            separate(sample_condition, into = c("sample", "condition"), sep = "_")
+
+          print(rna_seq_long)
+        </code></pre>
+
+        <figure class="figure-small">
+          <img src="img/long_data_example.png" alt="Description of the figure" />
+          <figcaption>
+            Fig. 3 Example of data in long format
+          </figcaption>
+        </figure>
+
+        <p>
+          Now that each row represents a single observation, our data are in long format, also known as tidy data. Since we have tidy data now, we can use ggplot2 to generate bar plots displaying the gene counts for each sample.
+        </p>
+
+        <pre><code class="language-r">
+          # 4. Plot barplot for gene count between treatment conditions
+
+          ggplot(rna_seq_long)+
+            geom_col(aes(x=gene,y=count,fill=condition),position = "dodge")+
+            facet_wrap(~sample)
+        </code></pre>
+
+        <figure class="figure-small">
+          <img src="img/long_data_barplot_example.png" alt="Description of the figure" />
+          <figcaption>
+            Fig. 4 Bar plots displaying the condition and gene counts for each sample
+          </figcaption>
+        </figure>
+
 
     </article>
 
+    <hr>
 
-    <footer class="footer">  
+  </main>
+
+
+  <footer class="footer">  
       <p>All views/posts are my own | &copy; 2026 Cole Ruoff</p>
-   </footer>
+  </footer>
 
+  <!-- Optional: syntax highlighting -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script> -->
 </body>
-
 </html>
