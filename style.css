@@ -352,22 +352,22 @@ Research page stuff
   color: #111;
 }
 
-.container {
+.article .container {
   max-width: 760px;
   padding: 2rem 1.25rem;
   margin: 0 auto;
 }
 
-.post-header h1 {
+.article .post-header h1 {
   margin-bottom: 0.25rem;
 }
 
-.post-meta {
+.article .post-meta {
   color: #666;
   font-size: 0.9rem;
 }
 
-.post-section {
+.article .post-section {
   margin-top: 2rem;
 }
 
@@ -379,38 +379,38 @@ Research page stuff
   font-size: 0.9rem;
 }
 
-code {
+.article code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
-.figure {
+.article .figure {
   margin: 1.5rem 0;
   text-align: center;
 }
 
-.figure img {
+.article .figure img {
   max-width: 100%;
   height: auto;
 }
 
-.figure-small img {
+.article .figure-small img {
   max-width: 50%;
 }
 
-.figure-medium img { 
+.article .figure-medium img { 
   max-width: 70%; 
 }
 
-.figure-large img  { 
+.article .figure-large img  { 
   max-width: 90%; 
 }
 
-figcaption {
+.article figcaption {
   font-size: 0.8rem;
   color: #666;
   margin-top: 0.4rem;
 }
-.figure figcaption {
+.article .figure figcaption {
   font-size: 0.8rem;
   color: #555;
   margin-top: 0.5rem;
