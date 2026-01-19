@@ -338,11 +338,9 @@ Research page stuff
 }
 
 
-
-
-
-
-
+/**********************************************************
+Blog Posts
+**********************************************************/
 
 .article body {
   margin: 0;
@@ -416,7 +414,62 @@ Research page stuff
   margin-top: 0.5rem;
 }
 
+/**********************************************************
+Blog Index Page
+**********************************************************/
 
+.blog-index {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.25rem;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.blog-index h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.article-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.article-item:last-child {
+  border-bottom: none;
+}
+
+.article-item h2 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.25rem;
+}
+
+.article-item a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.article-item a:hover {
+  text-decoration: underline;
+}
+
+.article-meta {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.article-description {
+  font-size: 0.95rem;
+  color: #333;
+}
 
 /**********************************************************
 Reference CSS
