@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Blog Post Title</title>
+    <title>Article Title</title>
     <meta name="description" content="Short description of the blog post" />
 
     <!-- Main stylesheet -->
@@ -24,84 +24,93 @@
 <body class="article">
     <header class="header">
 
-    <nav class="nav">
+        <nav class="nav">
 
-      <ul class="nav-links">
+            <ul class="nav-links">
 
-        <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
 
-        <li><a href="/research.html">Research</a></li>
+                <li><a href="/research.html">Research</a></li>
 
-        <li><a href="/resources.html">Resources</a></li>
+                <li><a href="/resources.html">Resources</a></li>
 
-        <li><a href="/article_index.html" class="active">Blog</a></li>
+                <li><a href="/article_index.html" class="active">Blog</a></li>
 
-        <li><a href="/ColeRuoffCV_website.pdf">CV</a></li>
+                <li><a href="/ColeRuoffCV_website.pdf">CV</a></li>
 
-        <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/contact.html">Contact</a></li>
 
-      </ul>
-    </nav>
+            </ul>
+        </nav>
 
-  </header>
+    </header>
     <main class="container">
 
         <article class="post">
 
             <header class="post-header">
-                <h1>Blog Post Title</h1>
-                <p class="post-meta">Cole Ruoff · January 2026</p>
+                <h1>Article Title</h1>
+                
+                <p class="post-meta">Cole Ruoff · July 28, 2025</p>
             </header>
 
             <section class="post-section">
                 <p>
-                    This is the introduction to your blog post. Use this section to
-                    explain the motivation and give context for what follows.
+
+
                 </p>
             </section>
 
-            <section class="post-section">
-                <h2>Section Heading</h2>
-                <p>
-                    This is a paragraph explaining the concept. You can include inline
-                    code like <code>ggplot()</code> or <code>numpy.array</code>.
-                </p>
-            </section>
+            <hr>
 
             <section class="post-section">
                 <h2>Code Example</h2>
 
-                <pre><code class="language-r">
-            library(ggplot2)
+                <pre>
+                    <code class="language-r">
+                        library(ggplot2)
 
-            ggplot(df, aes(x, y)) +
-            geom_point() +
-            theme_minimal()
-        </code></pre>
+                        ggplot(df, aes(x, y)) +
+                        geom_point() +
+                        theme_minimal()
+                    </code>
+                </pre>
             </section>
+
+            <hr>
 
             <section class="post-section">
-                <h2>Image Example</h2>
+                <h2>Examples</h2>
 
-                <figure class="figure">
-                    <img src="images/example.png" alt="Description of the figure" />
+                <p>This dataset (Fig. 1) shows what tidy data look like. Notice how each column represents a single
+                    variable and
+                    each row is its own observation.
+                </p>
+
+                <figure class="figure-small">
+                    <img src="img/tidy_data_fig1.jpg" alt="Description of the figure" />
                     <figcaption>
-                        Figure 1. Example visualization generated from the analysis.
+                        Fig. 1 Patient resting heart rate (RHR) in tidy format
                     </figcaption>
                 </figure>
+
             </section>
+
+            <hr>
 
             <section class="post-section">
                 <h2>Conclusion</h2>
                 <p>
-                    Wrap up the post here. Summarize the main points and link to related
-                    resources or future work.
+                    blah
                 </p>
             </section>
 
         </article>
 
+        <hr>
+
     </main>
+
 
     <footer class="footer">
         <p>All views/posts are my own | &copy; 2026 Cole Ruoff</p>
