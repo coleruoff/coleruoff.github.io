@@ -472,7 +472,26 @@ Blog Index Page
 }
 
 /**********************************************************
-Reference CSS
+Blog references CSS
+**********************************************************/
+
+.citation {
+  font-size: 0.75em;
+  vertical-align: super;
+  text-decoration: none;
+}
+
+.references {
+  margin-top: 3rem;
+}
+
+.references li {
+  margin-bottom: 0.75rem;
+}
+
+
+/**********************************************************
+Extra CSS
 **********************************************************/
 
 /*
