@@ -1,0 +1,92 @@
+---
+title: "My Article"
+format:
+  html:
+    css:
+      - ../style.css
+      - ../fonts.css
+---
+
+<header class="header">
+
+  <nav class="nav">
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../research.html">Research</a></li>
+      <li><a href="../resources.html">Resources</a></li>
+      <li><a href="article_index.html" class="active">Blog</a></li>
+      <li><a href="../ColeRuoffCV_website.pdf">CV</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<main class="blog-index">
+
+## My Blog Posts
+
+<ul class="article-list">
+
+  <li class="article-item">
+    <h2>
+      <a href="articles/what_is_the_prostate/what_is_the_prostate.html">
+        What is the Prostate?
+      </a>
+    </h2>
+    <div class="article-meta">September 4, 2026</div>
+  </li>
+
+  <li class="article-item">
+    <h2>
+      <a href="articles/phd_interview_advice/phd_interview_advice.html">
+        Tips For PhD Interviews
+      </a>
+    </h2>
+    <div class="article-meta">February 8, 2026</div>
+  </li>
+
+  <li class="article-item">
+    <h2>
+      <a href="articles/one_step_at_a_time/one_step_at_a_time.html">
+        One Step at a Time
+      </a>
+    </h2>
+    <div class="article-meta">February 1, 2026</div>
+  </li>
+
+  <li class="article-item">
+    <h2>
+      <a href="articles/embracing_failure/embracing_failure.html">
+        Embracing Failure
+      </a>
+    </h2>
+    <div class="article-meta">January 24, 2026</div>
+  </li>
+
+  <li class="article-item">
+    <h2>
+      <a href="articles/reshaping_data/reshaping_data.html">
+        Reshaping Data
+      </a>
+    </h2>
+    <div class="article-meta">August 17, 2025</div>
+  </li>
+
+  <li class="article-item">
+    <h2>
+      <a href="articles/tidy_data/tidy_data.html">
+        Tidy Data
+      </a>
+    </h2>
+    <div class="article-meta">July 28, 2025</div>
+  </li>
+
+</ul>
+
+</main>
+
+<footer class="footer">
+  <p>All views/posts are my own | &copy; 2026 Cole Ruoff</p>
+</footer>
+
