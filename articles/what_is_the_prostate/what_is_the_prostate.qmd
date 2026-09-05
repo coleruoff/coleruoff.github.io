@@ -1,11 +1,8 @@
 ---
-pagetitle: "What Is the Prostate? | Cole Ruoff"
+pagetitle: "What Is the Prostate?"
 description: "A primer on prostate anatomy, function, and cell biology."
 format:
   html:
-    css:
-      - ../../style.css
-      - ../../fonts.css
     theme: none
     minimal: true
     anchor-sections: false
