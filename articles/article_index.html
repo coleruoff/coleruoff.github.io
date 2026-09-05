@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>My Article</title>
+<title>article_index</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,49 +26,29 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
 <script src="article_index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="article_index_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="article_index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="article_index_files/libs/quarto-html/tabby.min.js"></script>
 <script src="article_index_files/libs/quarto-html/popper.min.js"></script>
 <script src="article_index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="article_index_files/libs/quarto-html/anchor.min.js"></script>
 <link href="article_index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="article_index_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="article_index_files/libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
 <link href="article_index_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="article_index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="article_index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="article_index_files/libs/bootstrap/bootstrap-917079515d91bccb85b543faf8aa8bb6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../fonts.css">
 </head>
 
-<body class="fullcontent quarto-light">
-
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">My Article</h1>
-</div>
+<body>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <header class="header">
@@ -96,12 +76,11 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 </header>
 <main class="blog-index">
-<section id="my-blog-posts" class="level2">
-<h2 class="anchored" data-anchor-id="my-blog-posts">My Blog Posts</h2>
+<h2 id="my-blog-posts" class="anchored">My Blog Posts</h2>
 <ul class="article-list">
 <li class="article-item">
 <h2 class="anchored">
-<a href="articles/what_is_the_prostate/what_is_the_prostate.html"> What is the Prostate? </a>
+<a href="what_is_the_prostate/what_is_the_prostate.html"> What is the Prostate? </a>
 </h2>
 <div class="article-meta">
 September 4, 2026
@@ -109,7 +88,7 @@ September 4, 2026
 </li>
 <li class="article-item">
 <h2 class="anchored">
-<a href="articles/phd_interview_advice/phd_interview_advice.html"> Tips For PhD Interviews </a>
+<a href="phd_interview_advice/phd_interview_advice.html"> Tips For PhD Interviews </a>
 </h2>
 <div class="article-meta">
 February 8, 2026
@@ -117,7 +96,7 @@ February 8, 2026
 </li>
 <li class="article-item">
 <h2 class="anchored">
-<a href="articles/one_step_at_a_time/one_step_at_a_time.html"> One Step at a Time </a>
+<a href="one_step_at_a_time/one_step_at_a_time.html"> One Step at a Time </a>
 </h2>
 <div class="article-meta">
 February 1, 2026
@@ -125,7 +104,7 @@ February 1, 2026
 </li>
 <li class="article-item">
 <h2 class="anchored">
-<a href="articles/embracing_failure/embracing_failure.html"> Embracing Failure </a>
+<a href="embracing_failure/embracing_failure.html"> Embracing Failure </a>
 </h2>
 <div class="article-meta">
 January 24, 2026
@@ -133,7 +112,7 @@ January 24, 2026
 </li>
 <li class="article-item">
 <h2 class="anchored">
-<a href="articles/reshaping_data/reshaping_data.html"> Reshaping Data </a>
+<a href="reshaping_data/reshaping_data.html"> Reshaping Data </a>
 </h2>
 <div class="article-meta">
 August 17, 2025
@@ -141,25 +120,26 @@ August 17, 2025
 </li>
 <li class="article-item">
 <h2 class="anchored">
-<a href="articles/tidy_data/tidy_data.html"> Tidy Data </a>
+<a href="tidy_data/tidy_data.html"> Tidy Data </a>
 </h2>
 <div class="article-meta">
 July 28, 2025
 </div>
 </li>
 </ul>
-</section></main>
+</main>
 <footer class="footer">
 <p>
 All views/posts are my own | © 2026 Cole Ruoff
 </p>
 </footer>
 
-
-</main>
-<!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+    tabsets.forEach(function(tabset) {
+      const tabby = new Tabby('#' + tabset.id);
+    });
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -258,7 +238,7 @@ All views/posts are my own | © 2026 Cole Ruoff
         },
         interactive: true,
         interactiveBorder: 10,
-        theme: 'quarto',
+        theme: 'light-border',
         placement: 'bottom-start',
       };
       if (contentFn) {
@@ -558,7 +538,6 @@ All views/posts are my own | © 2026 Cole Ruoff
     }
   });
   </script>
-</div> <!-- /content -->
 
 
 
