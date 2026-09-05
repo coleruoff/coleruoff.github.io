@@ -40,7 +40,7 @@ format:
 ## Introduction
 
 The prostate is a small accessory gland in the male reproductive system
-that is present in all mammals<sup><a href="#ref-1" class="citation">1,2</a></sup>. It sits just below the bladder and
+that is present in almost all mammals<sup><a href="#ref-1" class="citation">1,2</a></sup>. It sits just below the bladder and
 wraps around the top of the urethra<sup><a href="#ref-3" class="citation">3,4</a></sup>. In humans it\'s roughly the
 size of a walnut and is made up of glandular tissue, smooth muscle, and
 connective tissue<sup><a href="#ref-1" class="citation">1,4</a></sup>. In normal human physiology, the prostate
@@ -146,11 +146,12 @@ fluid<sup><a href="#ref-33" class="citation">33</a></sup>.
 The basal epithelial cells are found between the luminal epithelial
 cells and adjacent to the basement membrane<sup><a href="#ref-33" class="citation">33</a></sup>. These cells provide
 structural support to the tissue by anchoring luminal epithelial cells
-to the basement membrane<sup><a href="#ref-33" class="citation">33</a></sup>. They also function as progenitor cells to
-regenerate the glandular epithelium after an injury<sup><a href="#ref-33" class="citation">33</a></sup>. Basal cells
+to the basement membrane<sup><a href="#ref-33" class="citation">33</a></sup>. They have also been implicated as a progenitor population capable 
+of contributing to 
+regeneration of the glandular epithelium after an injury<sup><a href="#ref-33" class="citation">33</a></sup>. Basal cells
 have a flattened morphology and distinct cell markers<sup><a href="#ref-33" class="citation">33</a></sup>. These markers
 include CK5, CK14, TP63, and very low to no AR expression<sup><a href="#ref-33" class="citation">33</a></sup>. Due to
-this low expression of AR, these cells do not need androgens to survive
+this low expression of AR, basal cells are substantially less dependent on androgens compared to luminal epithelial cells to survive
 and grow<sup><a href="#ref-33" class="citation">33</a></sup>.
 
 The neuroendocrine epithelial cells are found rarely dispersed among the
@@ -176,8 +177,7 @@ plasticity<sup><a href="#ref-33" class="citation">33</a></sup>.
 
 The stroma of the prostate is fibromuscular, and it includes
 fibroblasts, smooth muscle cells, endothelial cells, nerves, and
-assorted infiltrating cells (e.g., mast cells, lymphocytes)<sup><a href="#ref-35" class="citation">35</a></sup>. There
-is no adipose tissue in the prostate<sup><a href="#ref-28" class="citation">28</a></sup>. The epithelial cells in the
+assorted infiltrating cells (e.g., mast cells, lymphocytes)<sup><a href="#ref-35" class="citation">35</a></sup>. The epithelial cells in the
 prostate receive nutrients and hormones through the stroma cells<sup><a href="#ref-36" class="citation">36</a></sup>.
 Cellular communication among epithelial cells and stromal cells plays a
 strong role in regulated function in the prostate<sup><a href="#ref-35" class="citation">35,36</a></sup>.
@@ -188,7 +188,7 @@ strong role in regulated function in the prostate<sup><a href="#ref-35" class="c
 
 ## Conclusion
 
-The prostate is a complex organ that plays an important role in male urinary and sexual function<sup><a href="#ref-37" class="citation">37</a></sup>. Across the world, prostate cancer is one of the most common cancer types<sup><a href="#ref-38" class="citation">38</a></sup>. In the next post, I will discuss prostate cancer etiology and tumorigenesis.
+The prostate is a complex organ that plays an important role in male urinary and sexual function<sup><a href="#ref-37" class="citation">37</a></sup>. Across the world, prostate cancer is one of the most common cancer types<sup><a href="#ref-38" class="citation">38</a></sup>. In the next post, I will discuss prostate cancer etiology.
 
 </section>
 
