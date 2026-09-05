@@ -1,12 +1,13 @@
 ---
-title: "My Blog Posts"
+pagetitle: "Blog | Cole Ruoff"
+description: "Blog posts by Cole Ruoff on cancer biology, data science, and PhD life."
 format:
   html:
-    css:
-      - style.css
-      - fonts.css
-    embed-resources: false
     theme: none
+    minimal: true
+    anchor-sections: false
+    embed-resources: false
+    include-in-header: _blog_head.html
 ---
 
 <header class="header">
@@ -26,7 +27,7 @@ format:
 
 <main class="blog-index">
 
-## My Blog Posts
+# My Blog Posts
 
 <ul class="article-list">
 
@@ -91,4 +92,3 @@ format:
 <footer class="footer">
   <p>All views/posts are my own | &copy; 2026 Cole Ruoff</p>
 </footer>
-
