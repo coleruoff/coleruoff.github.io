@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "My Blog Posts"
 format:
   html:
     css:
@@ -41,7 +41,7 @@ format:
 
   <li class="article-item">
     <h2>
-      <a href="phd_interview_advice/phd_interview_advice.html">
+      <a href="articles/phd_interview_advice/phd_interview_advice.html">
         Tips For PhD Interviews
       </a>
     </h2>
@@ -50,7 +50,7 @@ format:
 
   <li class="article-item">
     <h2>
-      <a href="one_step_at_a_time/one_step_at_a_time.html">
+      <a href="articles/one_step_at_a_time/one_step_at_a_time.html">
         One Step at a Time
       </a>
     </h2>
@@ -59,7 +59,7 @@ format:
 
   <li class="article-item">
     <h2>
-      <a href="embracing_failure/embracing_failure.html">
+      <a href="articles/embracing_failure/embracing_failure.html">
         Embracing Failure
       </a>
     </h2>
@@ -68,7 +68,7 @@ format:
 
   <li class="article-item">
     <h2>
-      <a href="reshaping_data/reshaping_data.html">
+      <a href="articles/reshaping_data/reshaping_data.html">
         Reshaping Data
       </a>
     </h2>
@@ -77,7 +77,7 @@ format:
 
   <li class="article-item">
     <h2>
-      <a href="tidy_data/tidy_data.html">
+      <a href="articles/tidy_data/tidy_data.html">
         Tidy Data
       </a>
     </h2>
