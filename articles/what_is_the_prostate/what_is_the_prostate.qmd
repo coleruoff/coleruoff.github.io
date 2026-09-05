@@ -5,8 +5,8 @@ csl: nature.csl
 format:
   html:
     css:
-      - ../../style.css
-      - ../../fonts.css
+      - style.css
+      - fonts.css
 ---
 
 <header class="header">
