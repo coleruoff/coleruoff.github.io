@@ -1,0 +1,314 @@
+---
+pagetitle: "Prostate Cancer Etiology"
+description: "A review of the risk factors, somatic mutations, and epigenetic alterations that drive prostate cancer."
+format:
+  html:
+    theme: none
+    minimal: true
+    anchor-sections: false
+    include-in-header: ../../_blog_head.html
+---
+
+<header class="header">
+
+  <nav class="nav">
+    <ul class="nav-links">
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/research.html">Research</a></li>
+      <li><a href="/resources.html">Resources</a></li>
+      <li><a href="/article_index.html" class="active">Blog</a></li>
+      <li><a href="/ColeRuoffCV_website.pdf">CV</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<div class="article">
+
+<main class="container">
+
+<article class="post">
+
+<header class="post-header">
+<h1>Prostate Cancer Etiology</h1>
+<p class="post-meta">Cole Ruoff &middot; September 19, 2026</p>
+</header>
+
+<section class="post-section">
+
+## Introduction
+
+Prostate cancer is the second most common cancer in men, and there is
+reported to be 1.5 million new cases and 400,000 deaths attributed to
+prostate cancer each year<sup><a href="#ref-1" class="citation">1</a></sup>.
+Due to this widespread impact, much research has been focused on
+understanding the risk factors, initiation, and progression of prostate
+cancer. It's clear that prostate cancer is driven by a multitude of
+factors ranging from family history to somatic mutations accumulated
+throughout life. Here, I will review the risk factors, mutations, and
+epigenetic alterations associated with prostate cancer tumorigenesis.
+
+</section>
+
+<section class="post-section">
+
+## Risk Factors
+
+### Age
+
+There are various risk factors for prostate cancer, and one of the
+strongest absolute risk factors for developing prostate cancer is
+age. It's been reported that incidence of prostate cancer increases
+logarithmically with age. United States cancer statistics in 2022
+showed that prostate cancer risk increases from 1.8% in men aged
+60-69 years old to 9% in individuals aged &gt;69 years
+old<sup><a href="#ref-2" class="citation">2</a></sup>. The overall
+lifetime risk of prostate cancer was reported to be
+12.5%<sup><a href="#ref-2" class="citation">2</a></sup>. The
+development of prostate cancer is so common that autopsy studies
+showed that prostate carcinoma lesions were detected in over 50% of
+men aged &gt;79 years
+old<sup><a href="#ref-3" class="citation">3</a></sup>.
+
+### Family History
+
+Along with age, family history is a major risk factor for prostate
+cancer. It's been reported that having one first-degree relative with
+prostate cancer doubles your individual risk. Having two or more
+first-degree relatives increases the relative risk to 5-11 times
+compared to the general
+population<sup><a href="#ref-4" class="citation">4,5</a></sup>. This
+non-intervenable risk factor is a reflection of both shared genetic
+variants and familial screening
+habits<sup><a href="#ref-6" class="citation">6</a></sup>.
+
+### Pathogenic Germline Mutations
+
+Although most cases of prostate cancer are sporadic, there are known
+pathogenic variants associated with prostate cancer, especially
+germline mutations. Pathogenic variants include genes such as
+MUTYH<sup><a href="#ref-7" class="citation">7</a></sup>, which encodes
+a DNA glycosylase that preserves genome
+stability<sup><a href="#ref-8" class="citation">8</a></sup>. Also,
+BRCA1 and BRCA2<sup><a href="#ref-9" class="citation">9</a></sup>,
+known tumor suppressors that work by repairing double stranded breaks
+in DNA via homologous
+recombination<sup><a href="#ref-10" class="citation">10,11</a></sup>.
+Additionally, variants of the ATM gene have been associated with
+prostate cancer
+initiation<sup><a href="#ref-7" class="citation">7</a></sup>. ATM
+encodes a serine/threonine protein kinase that's activated by DNA
+double-strand breaks and coordinates cell-cycle checkpoints, DNA
+repair, and apoptosis<sup><a href="#ref-12" class="citation">12</a></sup>.
+
+### Intervenable Risk Factors
+
+There are well established intervenable risk factors associated with
+prostate cancer such as diet and obesity.
+
+**Diet**
+
+There are strong data that show lifestyle factors, especially diet,
+are associated with increased risk of developing prostate cancer and
+increased risk of prostate cancer
+progression<sup><a href="#ref-13" class="citation">13,14</a></sup>.
+Diets resembling the "Western diet," which are high in saturated fat,
+processed meats, red meat consumption, and dairy, have been shown to
+increase risk<sup><a href="#ref-15" class="citation">15</a></sup>.
+Diets that are more plant-based, which include fruits, vegetables,
+green tea, and healthy fats, have been shown to have protective
+effects by lowering your
+risk<sup><a href="#ref-15" class="citation">15</a></sup>. It's
+believed that an individual's diet modulates risk for developing
+prostate cancer and disease progression due to its effect on
+inflammation, oxidative stress, and sex
+hormones<sup><a href="#ref-15" class="citation">15</a></sup>.
+
+**Obesity**
+
+Obesity is a major preventable risk factor for various types of
+cancer<sup><a href="#ref-1" class="citation">1,16,17</a></sup>.
+Particularly in prostate cancer, obesity is associated with elevated
+risk of disease recurrence after treatment, disease progression, and
+prostate cancer
+mortality<sup><a href="#ref-17" class="citation">17</a></sup>. The
+physiological mechanisms that link obesity to worse prognosis with
+prostate cancer are still relatively unknown. Similarly to diet,
+current evidence points to increased risk stemming from altered
+insulin and sex hormone
+concentrations<sup><a href="#ref-17" class="citation">17</a></sup>.
+
+</section>
+
+<section class="post-section">
+
+## Somatic Mutations
+
+The somatic mutations that are involved in prostate cancer initiation
+are very diverse and span a wide spectrum. The most well studied
+somatic mutations are present in the genes TP53, PTEN, and SPOP.
+Additionally, ETV family gene fusions, like TMPRSS2-ERG, contribute
+greatly to prostate cancer development and
+progression<sup><a href="#ref-1" class="citation">1</a></sup>.
+Prostate cancer has been found to have more frequent copy number
+alterations (CNAs), displaying a median of 32 per patient, compared to
+single nucleotide variations (SNVs), which only present 0.42
+SNVs/Mbp<sup><a href="#ref-1" class="citation">1</a></sup>.
+
+One of the most common somatic mutations is TP53 mutations, a known
+tumor suppressor
+gene<sup><a href="#ref-18" class="citation">18</a></sup>. TP53 is
+known as the "guardian of the genome" and functions as a transcription
+factor that maintains genome stability. TP53 maintains genome
+stability via activating cell cycle arrest, apoptosis, or
+senescence<sup><a href="#ref-19" class="citation">19</a></sup>. TP53
+mutations commonly occur in advanced and metastatic states of prostate
+cancer, which lead to progression and treatment resistance through
+impairing genome
+stability<sup><a href="#ref-20" class="citation">20</a></sup>.
+
+Another common tumor suppressor gene that is frequently altered in
+prostate cancer is
+PTEN<sup><a href="#ref-1" class="citation">1</a></sup>. The loss or
+mutation of PTEN occurs in about 20% of radical prostatectomy
+specimens and about 50% of castration-resistant
+specimens<sup><a href="#ref-1" class="citation">1</a></sup>. The
+alteration of PTEN leads to the activation of the PI3K-AKT-mTOR
+pathway, which promotes the phosphorylation, cytoplasmic
+translocation, and inactivation of FOXO1. This subsequently leads to
+increased proliferation and
+invasion<sup><a href="#ref-21" class="citation">21</a></sup>. PTEN is
+an important biomarker for distinguishing aggressive prostate cancer
+cases, since it is also highly associated with higher Gleason score,
+worse prognosis, and neuroendocrine differentiation.
+
+SPOP somatic mutations are one of the most common alterations in
+primary prostate cancer, reported to occur in 6-15% of
+cases<sup><a href="#ref-22" class="citation">22</a></sup>. SPOP is an
+E3 ubiquitin ligase, and one of its substrates is the androgen
+receptor (AR). As a result, SPOP-mutant prostate cancer cases have
+higher AR activity compared to non SPOP-mutant
+cases<sup><a href="#ref-23" class="citation">23</a></sup>.
+
+FOXA1 mutations are also common in prostate cancer. Interestingly,
+FOXA1 mutations show high variability in prevalence across
+ethnicities. In Western primary prostate cancer, 4-9% of cases possess
+a FOXA1 mutation, while African and Asian prostate cancer cases show
+about 8% and up to 41%,
+respectively<sup><a href="#ref-22" class="citation">22,24,25</a></sup>.
+In prostate cancer, FOXA1 acts as a pioneer transcription factor by
+opening chromatin, which assists in AR binding and subsequent AR
+signaling<sup><a href="#ref-26" class="citation">26</a></sup>. It has
+also been found that FOXA1, in cooperation with FOXA2, sustains
+AR-independent proliferation, enabling AR-negative lineages to
+progress<sup><a href="#ref-27" class="citation">27</a></sup>.
+
+The chromosomal rearrangement linking two genes, TMPRSS2 and ERG, is
+present in about 50% of prostate cancer cases, making it the most
+frequent genetic alteration in prostate
+cancer<sup><a href="#ref-28" class="citation">28</a></sup>. The
+mechanism of this gene fusion involves overexpression of ERG driven by
+androgen response elements. This leads to increased invasion and
+malignant transformation<sup><a href="#ref-29" class="citation">29</a></sup>.
+
+</section>
+
+<section class="post-section">
+
+## Epigenetic Alterations
+
+Along with genetic alterations, prostate cancer often displays
+frequent epigenetic alterations. The occurrence and progression of
+prostate cancer is likely driven by these alterations, which modulate
+how specific genes are expressed. Changes in DNA methylation are a
+common feature of prostate
+cancer<sup><a href="#ref-30" class="citation">30,31</a></sup>. CpG
+islands in promoter regions display hypermethylation, which leads to
+transcriptional silencing of multiple tumor suppressor genes such as
+GSTP1, APC, and RASSF1A<sup><a href="#ref-32" class="citation">32</a></sup>.
+Hypermethylation of the GSTP1 promoter may be a useful epigenetic
+biomarker, as it is detected in about 90% of prostate cancer and about
+70% of premalignant lesions called prostatic intraepithelial neoplasia
+(PIN)<sup><a href="#ref-32" class="citation">32</a></sup>. There are
+also changes in histone modifications in prostate cancer. In
+castration-resistant prostate cancer, H3K4me1 and H3K4me2 are enriched
+at AR enhancers, which promotes tumor growth via the upregulation of
+cell cycle genes<sup><a href="#ref-33" class="citation">33</a></sup>.
+Also, changes in H3K27me3 modifications are found to silence tumor
+suppressor genes, leading to tumor growth and
+progression<sup><a href="#ref-34" class="citation">34</a></sup>. Other
+forms of epigenetic reprogramming that have been found in prostate
+cancer include dysregulation of non-coding RNAs and
+microRNAs<sup><a href="#ref-35" class="citation">35</a></sup>.
+
+</section>
+
+<section class="post-section">
+
+## Conclusion
+
+The initiation of prostate cancer is multifactorial, involving various
+risk factors, lifestyle choices, genetic alterations, and epigenetic
+alterations among others. Research over recent years has revealed many
+strong associations, but much is still unknown. Once prostate cancer
+develops, the most important thing is early detection. In my next
+post, I will review the history of prostate cancer treatment.
+
+</section>
+
+<hr>
+
+<section class="post-section">
+
+## References
+
+<ol class="references">
+  <li id="ref-1">Jin, X. <em>et al.</em> Prostate Cancer Development, Progression, and Therapy. doi:10.1002/mog2.70082.</li>
+  <li id="ref-2">Bergengren, O. <em>et al.</em> 2022 Update on Prostate Cancer Epidemiology and Risk Factors-A Systematic Review. <em>Eur. Urol.</em> <strong>84</strong>, 191–206 (2023).</li>
+  <li id="ref-3">Bell, K. J., Del Mar, C., Wright, G., Dickinson, J. & Glasziou, P. Prevalence of incidental prostate cancer: A systematic review of autopsy studies. <em>Int. J. Cancer</em> <strong>137</strong>, 1749–1757 (2015).</li>
+  <li id="ref-4">Health Commission Of The People's Republic Of China, N. National guidelines for diagnosis and treatment of prostate cancer 2022 in China (English version). <em>Chin. J. Cancer Res.</em> <strong>34</strong>, 270–288 (2022).</li>
+  <li id="ref-5">Pilié, P. G. <em>et al.</em> Germline genetic variants in men with prostate cancer and one or more additional cancers. <em>Cancer</em> <strong>123</strong>, 3925–3932 (2017).</li>
+  <li id="ref-6">Brook, M. N. <em>et al.</em> Family History of Prostate Cancer and Survival Outcomes in the UK Genetic Prostate Cancer Study. <em>Eur. Urol.</em> <strong>83</strong>, 257–266 (2023).</li>
+  <li id="ref-7">Shakroo, Y. M. <em>et al.</em> Germline pathogenic variants in prostate cancer. <em>Pathol. Res. Pract.</em> <strong>264</strong>, 155718 (2024).</li>
+  <li id="ref-8">Markkanen, E., Dorn, J. & Hübscher, U. MUTYH DNA glycosylase: the rationale for removing undamaged bases from the DNA. <em>Front. Genet.</em> <strong>4</strong>, 18 (2013).</li>
+  <li id="ref-9">Nyberg, T., Tischkowitz, M. & Antoniou, A. C. BRCA1 and BRCA2 pathogenic variants and prostate cancer risk: systematic review and meta-analysis. <em>Br. J. Cancer</em> <strong>126</strong>, 1067–1081 (2022).</li>
+  <li id="ref-10">Liu, Y. & West, S. C. Distinct functions of BRCA1 and BRCA2 in double-strand break repair. <em>Breast Cancer Res.</em> <strong>4</strong>, 9–13 (2002).</li>
+  <li id="ref-11">O'Donovan, P. J. & Livingston, D. M. BRCA1 and BRCA2: breast/ovarian cancer susceptibility gene products and participants in DNA double-strand break repair. <em>Carcinogenesis</em> <strong>31</strong>, 961–967 (2010).</li>
+  <li id="ref-12">Paull, T. T. Mechanisms of ATM Activation. <em>Annu. Rev. Biochem.</em> <strong>84</strong>, 711–738 (2015).</li>
+  <li id="ref-13">Abrams, D. I. An Integrative Approach to Prostate Cancer. <em>J. Altern. Complement. Med.</em> <strong>24</strong>, 872–880 (2018).</li>
+  <li id="ref-14">Peisch, S. F., Van Blarigan, E. L., Chan, J. M., Stampfer, M. J. & Kenfield, S. A. Prostate cancer progression and mortality: a review of diet and lifestyle factors. <em>World J. Urol.</em> <strong>35</strong>, 867–874 (2017).</li>
+  <li id="ref-15">Babakhanlou, R. & Gowin, K. The Impact of Diet and Nutrition on Prostate Cancer – Food for Thought? <em>Curr. Oncol. Rep.</em> <strong>27</strong>, 278–289 (2025).</li>
+  <li id="ref-16">De Pergola, G. & Silvestris, F. Obesity as a Major Risk Factor for Cancer. <em>J. Obes.</em> <strong>2013</strong>, 291546 (2013).</li>
+  <li id="ref-17">Wilson, R. L. <em>et al.</em> Obesity and prostate cancer: A narrative review. <em>Crit. Rev. Oncol. Hematol.</em> <strong>169</strong>, 103543 (2022).</li>
+  <li id="ref-18">Olivier, M., Hollstein, M. & Hainaut, P. TP53 mutations in human cancers: origins, consequences, and clinical use. <em>Cold Spring Harb. Perspect. Biol.</em> <strong>2</strong>, a001008 (2010).</li>
+  <li id="ref-19">Levine, A. J. Introduction. <em>Genes Cancer</em> <strong>2</strong>, 382–384 (2011).</li>
+  <li id="ref-20">Kumari, S. <em>et al.</em> Therapeutic potential of p53 reactivation in prostate cancer: Strategies and opportunities. <em>Eur. J. Pharmacol.</em> <strong>919</strong>, 174807 (2022).</li>
+  <li id="ref-21">Huang, H. & Tindall, D. J. Dynamic FoxO transcription factors. <em>J. Cell Sci.</em> <strong>120</strong>, 2479–2487 (2007).</li>
+  <li id="ref-22">Barbieri, C. E. <em>et al.</em> Exome sequencing identifies recurrent SPOP, FOXA1 and MED12 mutations in prostate cancer. <em>Nat. Genet.</em> <strong>44</strong>, 685–689 (2012).</li>
+  <li id="ref-23">Cancer Genome Atlas Research Network. The Molecular Taxonomy of Primary Prostate Cancer. <em>Cell</em> <strong>163</strong>, 1011–1025 (2015).</li>
+  <li id="ref-24">Parolia, A. <em>et al.</em> Distinct structural classes of activating FOXA1 alterations in advanced prostate cancer. <em>Nature</em> <strong>571</strong>, 413–418 (2019).</li>
+  <li id="ref-25">Li, J. <em>et al.</em> A genomic and epigenomic atlas of prostate cancer in Asian populations. <em>Nature</em> <strong>580</strong>, 93–99 (2020).</li>
+  <li id="ref-26">Gao, S., Patten, N. D. & Cai, C. Alterations in AR-FOXA1 signaling in prostate cancer progression and therapeutic resistance. <em>J. Natl. Cancer Cent.</em> <strong>6</strong>, 58–72 (2025).</li>
+  <li id="ref-27">Formaggio, N. <em>et al.</em> Targeting FOXA1 and FOXA2 disrupts the lineage-specific oncogenic output program in prostate cancer. <em>Cell Rep.</em> <strong>44</strong>, 116324 (2025).</li>
+  <li id="ref-28">Tomlins, S. A. <em>et al.</em> Recurrent fusion of TMPRSS2 and ETS transcription factor genes in prostate cancer. <em>Science</em> <strong>310</strong>, 644–648 (2005).</li>
+  <li id="ref-29">Shah, N. <em>et al.</em> ERG-Mediated Coregulator Complex Formation Maintains Androgen Receptor Signaling in Prostate Cancer. <em>Cancer Res.</em> <strong>80</strong>, 4612–4619 (2020).</li>
+  <li id="ref-30">Gurioli, G. <em>et al.</em> Methylation pattern analysis in prostate cancer tissue: identification of biomarkers using an MS-MLPA approach. <em>J. Transl. Med.</em> <strong>14</strong>, 249 (2016).</li>
+  <li id="ref-31">Yegnasubramanian, S., De Marzo, A. M. & Nelson, W. G. Prostate Cancer Epigenetics: From Basic Mechanisms to Clinical Implications. <em>Cold Spring Harb. Perspect. Med.</em> <strong>9</strong>, a030445 (2019).</li>
+  <li id="ref-32">Jerónimo, C. <em>et al.</em> Epigenetics in prostate cancer: biologic and clinical relevance. <em>Eur. Urol.</em> <strong>60</strong>, 753–766 (2011).</li>
+  <li id="ref-33">Wang, Q. <em>et al.</em> Androgen receptor regulates a distinct transcription program in androgen-independent prostate cancer. <em>Cell</em> <strong>138</strong>, 245–256 (2009).</li>
+  <li id="ref-34">Kondo, Y. <em>et al.</em> Gene silencing in cancer by histone H3 lysine 27 trimethylation independent of promoter DNA methylation. <em>Nat. Genet.</em> <strong>40</strong>, 741–750 (2008).</li>
+  <li id="ref-35">Chin, S. P., Dickinson, J. L. & Holloway, A. F. Epigenetic regulation of prostate cancer. <em>Clin. Epigenetics</em> <strong>2</strong>, 151–169 (2011).</li>
+</ol>
+
+</section>
+
+</article>
+
+</main>
+
+</div>
+
+<footer class="footer">
+  <p>All views/posts are my own | &copy; 2026 Cole Ruoff</p>
+</footer>
