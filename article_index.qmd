@@ -37,7 +37,7 @@ format:
         The History of Prostate Cancer Treatment
       </a>
     </h2>
-    <div class="article-meta">October 10, 2026</div>
+    <div class="article-meta">October 10git , 2026</div>
   </li>
 
   <li class="article-item">
